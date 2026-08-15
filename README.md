@@ -1,2 +1,2 @@
 # signal
-Detect the signals of AI-generated content
+Detect the signals of AI-generated content.
