@@ -1,0 +1,47 @@
+# AI Agent Instructions
+
+This file is the canonical source of repository instructions for AI coding agents.
+
+## Priority
+
+1. Direct user instructions
+2. This file
+3. Other repository documentation
+
+## Project Intent
+
+- Keep changes focused on the requested task.
+- Prefer small, reviewable edits over broad rewrites.
+- Preserve existing architecture unless a change is required.
+
+## Working Rules
+
+- Read the relevant code before editing.
+- Do not modify unrelated files.
+- Do not use destructive commands unless explicitly requested.
+- Call out assumptions when they affect behavior or safety.
+
+## Code Changes
+
+- Follow the existing code style and project conventions.
+- Prefer simple solutions over clever ones.
+- Add comments only where the code would otherwise be hard to follow.
+- Avoid introducing new dependencies unless they are justified.
+
+## Validation
+
+- Run the smallest useful test set for the changed area first.
+- If linting or formatting is configured, run it on affected files.
+- Report any checks you could not run.
+
+## Documentation
+
+- Store documentation under `docs/`.
+- Write documentation in English by default and provide a corresponding Japanese version.
+- Store English documentation directly under `docs/` and Japanese documentation under `docs/ja/`.
+
+## Collaboration
+
+- Summarize what changed and why.
+- Mention risks, follow-up work, or missing coverage when relevant.
+- If repository instructions conflict, follow the higher-priority rule and say so.
