@@ -43,7 +43,8 @@ This file is the canonical source of repository instructions for AI coding agent
 
 - Store documentation under `docs/`.
 - Write documentation in English by default and provide a corresponding Japanese version.
-- Store English documentation directly under `docs/` and Japanese documentation under `docs/ja/`.
+- Store an English document as `docs/<original>.md`.
+- Store its Japanese version as `docs/ja/<original>_ja.md`.
 
 ## Collaboration
 
